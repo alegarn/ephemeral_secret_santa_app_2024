@@ -1,4 +1,4 @@
-import React, { useRef, useEffect, useState } from 'react';
+import { useRef, useEffect, useState } from 'react';
 import { LoadingState } from './LoadingState';
 import { NextButton } from './NextButton';
 import { VIDEO_URL, ERROR_TIMEOUT } from './constants';

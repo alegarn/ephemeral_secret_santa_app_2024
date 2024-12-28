@@ -1,5 +1,6 @@
 import { useRef, useEffect, useState } from 'react';
 import { ArrowRight } from 'lucide-react';
+import videoUrl from '/src/videos/Aragorn,_For_Frodo_But_He_is_Alone.mp4';
 
 interface VideoSectionProps {
   onVideoEnd: () => void;
@@ -46,7 +47,7 @@ export function VideoSection({ onVideoEnd }: VideoSectionProps) {
             playsInline
           >
             <source 
-              src="src/videos/Aragorn, _For Frodo_ But He's Alone.mp4"
+              src={videoUrl}
               type="video/mp4"
             />
           </video>

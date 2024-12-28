@@ -1,4 +1,7 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
+import imgUrl1 from '/src/images/aragorn-army.png';
+import imgUrl2 from '/src/images/aragorn_picking_nose.png';
+import imgUrl3 from '/src/images/aragorn_mikado.png';
 
 interface Panel {
   id: number;
@@ -10,17 +13,17 @@ const panels: Panel[] = [
   {
     id: 1,
     text: "Attaque l'armée du Mordor",
-    bgImage: "src/images/aragorn-army.png"
+    bgImage: imgUrl1
   },
   {
     id: 2,
     text: "Cure toi le nez \\(-.-)/",
-    bgImage: "src/images/aragorn_picking_nose.png"
+    bgImage: imgUrl2
   },
   {
     id: 3,
     text: "Joue aux Mikado",
-    bgImage: "src/images/aragorn_mikado.png"
+    bgImage: imgUrl3
   }
 ];
 
