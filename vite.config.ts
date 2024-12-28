@@ -7,4 +7,5 @@ export default defineConfig({
   optimizeDeps: {
     //exclude: ['lucide-react'],
   },
+  assetsInclude: ['src/images/*.png', 'src/images/*.jpg', 'src/videos/*.mp4'],
 });

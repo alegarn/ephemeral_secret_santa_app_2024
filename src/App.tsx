@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { GiftSection } from './components/GiftSection';
 import { VideoSection } from './components/VideoSection';
 import { Modal } from './components/Modal';
