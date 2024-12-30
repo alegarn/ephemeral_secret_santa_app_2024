@@ -12,6 +12,7 @@ export function VideoSection({ onVideoEnd }: VideoSectionProps) {
 
   useEffect(() => {
     if (videoRef.current) {
+      videoRef.current.requestFullscreen();
       const playVideo = async () => {
         try {
           await videoRef.current?.play();
@@ -21,6 +22,7 @@ export function VideoSection({ onVideoEnd }: VideoSectionProps) {
         }
       };
       playVideo();
+
     }
   }, []);
 
